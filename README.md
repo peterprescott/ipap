@@ -11,10 +11,11 @@ But *first things first*, I wrote a Python script to convert
 the .docx files they sent us into markdown.
 
 Because there is no need for the zipped set of twenty .xml 
-files that make up a .docx file.
+files (picture 1 is the full set, picture 2 is the key
+`document.xml` file) that make up a .docx file, when you
+could have the same content more conveniently delivered
+in a simple 239 word markdown text file (compare picture 3).
 
-![](docx.jpeg)
-
-![](xml.jpeg)
-
-![](markdown.jpeg)
+1|2|3
+---|---|---
+![](docx.jpeg)|![](xml.jpeg)|![](markdown.jpeg)
