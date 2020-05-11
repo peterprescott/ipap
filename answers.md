@@ -1,12 +1,13 @@
-# School of Environmental Sciences: Annual Progress Proforma for Year 1 PGR students
-
-Please complete the following questions, limiting your answer 
-per question to 200 words or less and return to Joe Sheridan 
-at least one week before the date of your IPAP interview. 
-This document will be circulated to your interview panel. 
+---
+title: 'School of Environmental Sciences: Annual Progress Proforma for Year 1 PGR students'
+biblio-style: pi-harvard
+bibliography: ref.bib
+---
 
 Name: Peter Prescott
+
 Project Title: The Geodemographics of British Streets
+
 Supervisors: Alex Singleton
 
 
@@ -21,12 +22,12 @@ estimation and testing; as the site for social interaction and the construction 
 ## State why this PhD project is important.
 
 *Historically*, humankind is in the early stages of an unprecedented *data revolution*
--- and geographic/spatial data in particular pose unique challenges.
+[@RKitchin2014c] -- and geographic/spatial data in particular pose unique challenges [@JLeeKang2015]
 *Economically*, a recent Cabinet briefing suggested use of geospatial data could
-unleash £10 billion.
-But *critically*, advances in data analytics can have evil consequences too (whether
-deliberate or accidental), and so it is imperative that research be open, ethical
-and reproducible.
+unleash £10 billion [@CabinetOffice2018a].
+But *critically*, advances in data analytics can have negative consequences too 
+[@CONeil2016], and so it is imperative that research be open,
+and reproducible [@RPeng2011].
 
 ## State how the knowledge gained from the project will be put to use by other researchers or the non-academic community (industry, charities etc).
 
@@ -58,40 +59,43 @@ unit of *the street*, rather than ad hoc administrative areal divisions.
 
 ## State the three or four most important published manuscripts you have read this year and why you felt they were important to your PhD topic. 
 
-- Webber, R., and Burrows, R. (2018). The Predictive Postcode: The Geodemographic Classification of British Society.
-    * gives a historical overview of the development of geodemographics,
-    * while engaging with various critiques of geodemographics,
-    * and demonstrating its application to understanding contemporary social patterns.
+- @RWebberBurrows2018b give a historical overview of the development of geodemographics, while engaging with various critiques of geodemographics, and demonstrating its application to understanding contemporary social patterns.
 
-- O'Sullivan, D., and Unwin, D. (2003). Geographic Information Analysis.
-    * foundational account of first principles that is both accessible and rigorous.
+- @DOSullivanUnwin2014 offer a foundational account of first principles that is both accessible and rigorous.
 
-- Law, S. (2017). Defining Street-Based Local Area and measuring its effect on house price...
-    * a ground-breaking first attempt at defining a street-based local area.
+- @SLaw2017a includes a thorough account of the need for a well-defined Street-Based Local Area.
 
-- Boeing, G. (2018). Planarity and street network representation in urban form analysis.
-    - addresses the challenges of representing street networks as 'approximately' planar graph networks.
+- @GBoeing2017a is an excellent example of how to use Python to create software to do street network analysis.
  
 ## Outline the progress you have made, with reference to the aims and objectives above, over the past year. 
 
-- Gave a talk on the founding fathers of *Geographic Information Science*: Longley,
-Maguire, Goodchild & Rhind. [See link](https://geodemographics.co.uk/projects/gds-longleyetal/).
-- Gave a presentation on the development and application of Agent-Based Modelling
-in the social sciences. [See link](https://geodemographics.co.uk/projects/gds-abm/).
-- Wrote software to create simulation of agents interacting in a spatial field.
-[See link](https://geodemographics.co.uk/projects/agent-based-modelling/).
-- Created app to visualize research-paper citations as a network graph. [See link](https://geodemographics.co.uk/projects/citations/).
-- Wrote a paper examining the QLFS 2012 and considering the question of
-secularization in Britain, and the relationship between religiosity, age, and sex.
-- Wrote a paper analyzing the 2011 Census data to assess which features of small
-areas were the best predictors of home ownership. [See link](https://geodemographics.co.uk/projects/regression-modelling/).
-- Gave presentation reviewing and critiquing Kim Knotts' spatial analysis of religious-secular relations. [See link](https://geodemographics.co.uk/projects/qualitative-research-paper/).
-- Wrote paper reviewing the qualitative method of urban walking, as practised within 
-the framework of *psychogeography*, in critical dialogue with my own Evangelical
-epistemology, ethics, and experience. [See link](https://geodemographics.co.uk/projects/qualitative-methods/).
-- Combined multiple open datasets to create a geodemographic classification of the
-political constituencies of Britain. [See link](https://geodemographics.co.uk/projects/envs615_analysis-of-human-dynamics_201442927/).
-- Created implementations in Python of the Perceptron Algorithm](https://github.com/peterprescott/perceptron) and the K-Means Clustering algorithm. [See link](https://github.com/peterprescott/kmeans).
+- Agreed thesis outline and progress plan with supervisor
+- Taken seven MSc modules (receiving average mark of 74/100 for four completed modules)
+- Produced multiple pieces of relevant work:
+	- Gave a talk on the founding fathers of *Geographic Information Science*: Longley,
+	Maguire, Goodchild & Rhind. [@PPrescott2019]
+	- Gave a presentation on the development and application of Agent-Based Modelling
+	in the social sciences. [@PPrescott2019a]
+	- Wrote software to create simulation of agents interacting in a spatial field. [@PPrescott2019b]
+	- Created app to visualize research-paper citations as a network graph. [@PPrescott2019g]
+	- Wrote a paper examining the QLFS 2012 and considering the question of
+	secularization in Britain, and the relationship between religiosity, age, and sex. [@PPrescott2019c]
+	- Wrote a paper analyzing the 2011 Census data to assess which features of small
+	areas were the best predictors of home ownership. [@PPrescott2019e]
+	- Gave presentation reviewing and critiquing Kim Knotts' spatial analysis of religious-secular relations. [@PPrescott2019d]
+	- Wrote paper reviewing the qualitative method of urban walking, as practised within 
+	the framework of *psychogeography*, in critical dialogue with my own Evangelical
+	epistemology, ethics, and experience. [@PPrescott2019f]
+	- Combined multiple open datasets to create a geodemographic classification of the
+	political constituencies of Britain. [@PPrescott2020]
+	- Created implementations in Python of the Perceptron Algorithm [@PPrescott2020b] and the K-Means Clustering algorithm [@PPrescott2020a].
+- Learnt how to use the necessary tools to facilitate efficient and reproducible research writing and computation:
+    - Markdown for undistracted plain-text writing,
+    * Vim for efficient text-editing,
+    * Zotero for citation tracking,
+    - Git for version control (backup management),
+    - Pandoc and Latex for publication-quality documents,
+    - Docker for reproducible computational environments
 
 ## Outline your plans for the next year, with reference to the aims and objectives above. Do you foresee any challenges? 
 
@@ -114,4 +118,6 @@ political constituencies of Britain. [See link](https://geodemographics.co.uk/pr
 
 ## Please list the development workshops you have completed over the past year or so, delivered by LDC or by other means, e.g. through the DTP/CDT or external providers. What plans do you have for development workshops over the next year?
 
-None.
+I took part in the PGR Induction, and the Library Tour.
+
+I have no specific plans for future workshops -- will consider opportunities as they come.
